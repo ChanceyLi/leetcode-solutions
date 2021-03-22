@@ -19,3 +19,10 @@ class Solution:
             n >>= 1
         return res
 */
+/*
+while(n) {
+    ++res;
+    n &= n - 1;
+}
+return res;
+*/
